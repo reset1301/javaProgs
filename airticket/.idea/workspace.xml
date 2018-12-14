@@ -2,312 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96044ba7-5b41-420d-b036-cb8de74a4a7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_projectlombok_test_test_maven_lombok_1_18_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airticket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/config/TimingProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/controller/SearchImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/FlightClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/rrr/entities/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/aircraft.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gwt1/src/ru/rrr/client/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gwt1/src/ru/rrr/gwt1.gwt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logger/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logger/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../logger/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/.idea/nn11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/BImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/PrintMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/UpperBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn11/src/main/resources/contextAnnotaion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/nn12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/nn12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/src/main/java/rrr/BookwormOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/src/main/java/rrr/Oracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn12/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/nn13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/nn13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/HelloWorldMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/MessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/MessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/StandardOutMessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/resources/annotation-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn13/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/nn14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/src/main/java/rrr/InjectSimpleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/src/main/java/rrr/InjectSimpleSpelAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn14/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/nn15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/src/main/java/rrr/InjectSimpleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/src/main/java/rrr/InjectSimpleSpelAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn15/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/nn16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/src/main/java/rrr/SimpleTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn16/src/main/resources/parent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/nn17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/BookwormOracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/CollectionInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/Oracle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn17/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/nn18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/AbstractLookupDemoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/DemoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/MyHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/StandardLookupDemoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn18/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/nn19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/src/main/java/rrr/FormatMessageReplacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/src/main/java/rrr/ReplacementTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn19/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/nn20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/src/main/java/rrr/SimpleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/src/main/java/rrr/SimpleBeanWithInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn20/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/nn21.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessDigester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessageDigestFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessageDigestFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn21/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/resourceBundles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/nn22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_cs_CZ.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_ua_UA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/nn23.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/src/main/java/rrr/MessageEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/src/main/java/rrr/MessageEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/src/main/java/rrr/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn23/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/nn24.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn24/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/nn25.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/java/rrr/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/java/rrr/ConfigurableMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/java/rrr/MessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/java/rrr/MessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/java/rrr/StandardOutMessageRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn25/src/main/resources/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/nn26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/java/rrr/EnvironmentAndPropertySource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/java/rrr/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/java/rrr/FoodProviderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/java/rrr/highschool/FoodProviderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/java/rrr/kindergarden/FoodProviderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/resources/context-highschool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nn26/src/main/resources/context-kindergarden.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/WebClientSocket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/WebServerSocket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nodesocket/nodesocket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/sockets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/src/main/resources/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sockets/src/main/resources/serv_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/DumbPasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/pager.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/DumbPasswordEncoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/MainControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-before.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-after.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-before.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/controller/TwiceRegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/domain/PassPhr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/repos/PassPhrRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/db/migration/V5__Add_Second_Authority.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/templates/secreg.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/libraries/org_apache_tomcat_tomcat_websocket_9_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/WebServerSocket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/domain/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websockets/websockets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/client/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/src/example/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/src/mypackage/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws1/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/NamedNodeMapIterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/SaxHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/AdditionalAssets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/Caption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/JavaClassToXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/Keyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/Keywords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/handmade_xml/ScreenshotCaptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws2/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/artifacts/ws3_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/src/example/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ws3/ws3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dz1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gs-rest-service" beforeDir="false" afterPath="$PROJECT_DIR$/../gs-rest-service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/repos/MessageRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/sweater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/sweater.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -359,7 +55,7 @@
               <caret line="112" column="111" selection-start-line="112" selection-start-column="111" selection-end-line="112" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1544798930873" expanded="true" signature="769:841" ph="..." />
+                <marker date="1544800006759" expanded="true" signature="769:841" ph="..." />
               </folding>
             </state>
           </provider>
@@ -651,7 +347,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544800053678" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544800297737" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sweater" />
@@ -750,14 +446,22 @@
       <updated>1544532239654</updated>
       <workItem from="1544532242957" duration="8445000" />
       <workItem from="1544684105522" duration="28710000" />
-      <workItem from="1544782475547" duration="11622000" />
+      <workItem from="1544782475547" duration="12117000" />
     </task>
+    <task id="LOCAL-00001" summary="v1.001">
+      <created>1544800181541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544800181541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48777000" />
+    <option name="totallyTimeSpent" value="49272000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -770,7 +474,7 @@
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21484375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21484375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -780,16 +484,16 @@
       <window_info anchor="bottom" id="Database Console" weight="0.5035587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2940171" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30604982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45982906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.31623933" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49921876" visible="true" weight="0.3025641" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.3025641" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32991454" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -806,6 +510,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.001" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.001" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/Downloads/postgresql-42.2.5.jar!/org/postgresql/Driver.class">
@@ -1024,7 +758,7 @@
           <caret line="112" column="111" selection-start-line="112" selection-start-column="111" selection-end-line="112" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1544798930873" expanded="true" signature="769:841" ph="..." />
+            <marker date="1544800006759" expanded="true" signature="769:841" ph="..." />
           </folding>
         </state>
       </provider>
