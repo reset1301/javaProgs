@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b42324d2-ef41-424d-afa2-3e4a0faaa5df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../gwt1/src/ru/rrr/client/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gwt1/src/ru/rrr/gwt1.gwt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logger/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logger/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../logger/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/.idea/nn11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/nnn/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/BImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/PrintMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/java/rrr/UpperBImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn11/src/main/resources/contextAnnotaion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/nn12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/nn12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/src/main/java/rrr/BookwormOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/src/main/java/rrr/Oracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn12/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/nn13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/nn13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/HelloWorldMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/MessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/MessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/java/rrr/StandardOutMessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/resources/annotation-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn13/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/nn14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/src/main/java/rrr/InjectSimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/src/main/java/rrr/InjectSimpleSpelAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn14/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/nn15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/src/main/java/rrr/InjectSimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/src/main/java/rrr/InjectSimpleSpelAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn15/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/nn16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/src/main/java/rrr/SimpleTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn16/src/main/resources/parent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/nn17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/BookwormOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/CollectionInjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/src/main/java/rrr/Oracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn17/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/nn18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/AbstractLookupDemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/DemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/MyHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/src/main/java/rrr/StandardLookupDemoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn18/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/nn19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/src/main/java/rrr/FormatMessageReplacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/src/main/java/rrr/ReplacementTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn19/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/nn20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/src/main/java/rrr/SimpleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/src/main/java/rrr/SimpleBeanWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn20/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/nn21.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessDigester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessageDigestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/src/main/java/rrr/MessageDigestFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn21/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/nn22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_cs_CZ.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nn22/src/main/resources/labels_ua_UA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/WebClientSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/WebServerSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/nodesocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/serv_context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/DumbPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/pager.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/DumbPasswordEncoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/controller/TwiceRegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/domain/PassPhr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/repos/PassPhrRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/db/migration/V5__Add_Second_Authority.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/templates/secreg.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/libraries/org_apache_tomcat_tomcat_websocket_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/WebServerSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/websockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/client/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/src/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/src/mypackage/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws1/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/NamedNodeMapIterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/src/main/java/rrr/SaxHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ws2/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gs-rest-service" beforeDir="false" afterPath="$PROJECT_DIR$/../gs-rest-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/repos/MessageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/sweater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/sweater.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-755194839">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/serv_context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rrr/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/serv_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rrr/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rrr/Client.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1620" />
+    <option name="height" value="870" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sockets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sockets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542295879942" />
+    <property name="last_opened_file_path" value="C:/JavaRushTasks/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task34/task3409" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rrr.Client" />
+      <module name="sockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rrr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rrr.Server" />
+      <module name="sockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rrr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b42324d2-ef41-424d-afa2-3e4a0faaa5df" name="Default Changelist" comment="" />
+      <created>1541599172670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541599172670</updated>
+      <workItem from="1541599178545" duration="3881000" />
+      <workItem from="1541676523076" duration="1636000" />
+      <workItem from="1541925255801" duration="591000" />
+      <workItem from="1542377979217" duration="294000" />
+      <workItem from="1542378389989" duration="1375000" />
+      <workItem from="1542488882095" duration="621000" />
+      <workItem from="1543131156651" duration="589000" />
+      <workItem from="1543135195843" duration="397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9384000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20546874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36410257" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5391459" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32991454" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources.context.xml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="150" column="33" selection-start-line="150" selection-start-column="25" selection-end-line="150" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="848" column="28" selection-start-line="848" selection-start-column="23" selection-end-line="848" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rrr/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/serv_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sockets</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

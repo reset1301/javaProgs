@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="injectSimple" class="rrr.App"
+          p:name="Roman"
+          p:age="35"
+          p:height="74"
+          p:programmer="true"
+          p:ageInMSeconds="1131877821498"
+    />
+
+    <!--inject from config class with SpEL-->
+    <bean id="injectSimpleConfig" class="rrr.InjectSimpleConfig"/>
+    <bean id="injectSimpleSpel" class="rrr.App"
+          p:name="#{injectSimpleConfig.name}"
+          p:age="#{injectSimpleConfig.age}"
+          p:height="#{injectSimpleConfig.height}"
+          p:programmer="#{injectSimpleConfig.programmer}"
+          p:ageInMSeconds="#{injectSimpleConfig.ageInMSeconds}"
+    />
+</beans>

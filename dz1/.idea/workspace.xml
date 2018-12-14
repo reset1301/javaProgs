@@ -2,33 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="959a9ddd-3c60-4fa8-a4b4-bde95eeccb41" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jless1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jless1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jless1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jless1/jless1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jless1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/ControllerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/db/migration/V1__Init_DB.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/db/migration/V2__Add_admin.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/db/migration/V3__Encode_passwords.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/WebClientSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/WebServerSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nodesocket/nodesocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sockets/sockets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/java/com.example.sweater/MainControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/create-user-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater/src/test/resources/messages-list-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/controller/TwiceRegController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/domain/PassPhr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/java/com/example/sweater/repos/PassPhrRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/db/migration/V5__Add_Second_Authority.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater_2auth/src/main/resources/templates/secreg.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/libraries/org_apache_tomcat_tomcat_websocket_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/WebServerSocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/src/main/java/com/app/process/MessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websockets/websockets.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gs-rest-service" beforeDir="false" afterPath="$PROJECT_DIR$/../gs-rest-service" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sweater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/service/UserSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/java/com/example/sweater/service/UserSevice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/main.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/profile.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/subscriptions.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/src/main/resources/templates/userEdit.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sweater/sweater.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sweater/sweater.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,10 +70,11 @@
     <session id="-626330031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,7 +136,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="num1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="num1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -174,9 +212,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +326,7 @@
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +351,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.09765625" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.19140625" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -323,8 +360,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="oracle" name="bookworm" class="rrr.BookwormOracle"/>
+
+    <bean id="collectionInjection" class="rrr.CollectionInjection">
+        <property name="map">
+            <map>
+                <entry key="someValue" value="It's a Value!"/>
+                <entry key="someBean" value-ref="oracle"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="host">localhost</prop>
+                <prop key="port">8888</prop>
+            </props>
+        </property>
+        <property name="set">
+            <set>
+                <value>It's a Set Value!</value>
+                <ref bean="bookworm"/>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>It's a List Value!</value>
+                <ref bean="oracle"/>
+            </list>
+        </property>
+    </bean>
+</beans>

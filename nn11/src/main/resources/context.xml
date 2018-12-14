@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!-- <bean/> definitions here -->
+    <bean name="message" class="java.lang.String">
+        <constructor-arg index="0" value="Hello world!"/>
+    </bean>
+    <bean name="messageUpper" class="java.lang.String">
+        <constructor-arg index="0" value="Other message"/>
+    </bean>
+    <bean id="messageProvider" class="rrr.BImpl">
+        <constructor-arg name="message" value="message"/>
+    </bean>
+    <bean id="messageProviderUpper" class="rrr.UpperBImpl">
+        <property name="message" ref="messageUpper"/>
+    </bean>
+    <bean id="messageConsumer" class="rrr.PrintMessage">
+        <property name="b" ref="messageProviderUpper"/>
+    </bean>
+
+</beans>

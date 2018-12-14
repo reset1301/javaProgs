@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductDescription language="en-us"
+                    >
+    <!--PDPRootPath=""-->
+    <Keywords>
+        <!-- Valid length: 45 character limit, up to 7 -->
+        <Keyword>
+            Mixed Reality Viewer
+        </Keyword>
+        <Keyword>
+            realidade misturada
+        </Keyword>
+        <Keyword>
+            Modelo 3D
+        </Keyword>
+        <Keyword>
+            View 3D
+        </Keyword>
+        <Keyword>
+            Exibição 3D
+        </Keyword>
+        <Keyword>
+            MR
+        </Keyword>
+        <Keyword>
+            3D
+        </Keyword>
+    </Keywords>
+    <!-- Valid length: 10000 character limit -->
+    <Description>
+        Leve qualquer modelo 3D para o mundo real — usando apenas a câmera em seu computador Windows 10. Com o
+        Visualizador de Realidade Misturada, misture o digital e o físico, rompa as barreiras da realidade e capture
+        tudo isso com uma foto para compartilhar.
+        Use qualquer modelo 3D disponível na comunidade Remix 3D ou crie seu próprio modelo 3D no Paint 3D.
+    </Description>
+    <!-- Valid length: 1500 character limit, optional -->
+    <ReleaseNotes>
+    </ReleaseNotes>
+    <ScreenshotCaptions>
+        <!-- Valid length: 200 character limit, up to 9 elements -->
+        <!-- Valid attributes: any of DesktopImage, MobileImage, XboxImage, SurfaceHubImage, and HoloLensImage -->
+        <Caption DesktopImage="Desktop_viewer_01.png">Use animação para dar vida aos seus vídeos de realidade
+            misturada.
+        </Caption>
+        <Caption DesktopImage="Desktop_viewer_02.png">Você pode colocar modelos 3D extraordinários em seu ambiente para
+            ter oportunidades de aprendizagem mais envolventes.
+        </Caption>
+        <Caption DesktopImage="Desktop_viewer_03.png">Use a Exibição de Modelos para ver seus arquivos 3D de todos os
+            ângulos usando os recursos de girar, dimensionar, zoom e panorâmica.
+        </Caption>
+        <Caption DesktopImage="Desktop_viewer_04.png">Capture fotos em realidade misturada com seus amigos.</Caption>
+        <Caption DesktopImage="Desktop_viewer_05.png">Use o Visualizador de Realidade Misturada para melhorar ideias e
+            visualizar novos conceitos.
+        </Caption>
+        <Caption DesktopImage="Desktop_viewer_06.png">Coloque modelos 3D em seu mundo para criar cenas divertidas.
+        </Caption>
+    </ScreenshotCaptions>
+    <AdditionalAssets>
+        <!-- Valid elements: StoreLogo9x16, StoreLogoSquare, Icon (use this value for the 1:1 300x300 pixels logo), -->
+        <!-- PromotionalArt16x9, PromotionalArtwork2400X1200, XboxBrandedKeyArt, XboxTitledHeroArt, XboxFeaturedPromotionalArt, -->
+        <!-- SquareIcon358X358, BackgroundImage1000X800, PromotionalArtwork414X180 -->
+        <!-- There is no content for any of these elements... just a single attribute called FileName. -->
+        <Icon FileName="StoreLogoSquare.png"/>
+    </AdditionalAssets>
+    <Trailers>
+        <!--The first trailer listed is the one that gets used as the banner trailer-->
+        <Trailer FileName="Desktop_viewer_trailer01.mp4" name="Hello!">
+            <Title>
+                <!--Title must have inner comment otherwise StoreBroker task will be failed-->
+                Trailer 1 do Visualizador de Realidade Misturada
+            </Title>
+            <Images>
+                <!-- Current maximum of 1 image per trailer allowed -->
+                <Image FileName="Desktop_viewer_trailer01_screenshot.png">
+                </Image>
+            </Images>
+        </Trailer>
+        <Trailer FileName="Desktop_viewer_trailer02.mp4">
+            <Title>
+                <!--Title must have inner comment otherwise StoreBroker task will be failed-->
+                Trailer 2 do Visualizador de Realidade Misturada
+            </Title>
+            <Images>
+                <!-- Current maximum of 1 image per trailer allowed -->
+                <Image FileName="Desktop_viewer_trailer02_screenshot.png">
+                </Image>
+            </Images>
+        </Trailer>
+    </Trailers>
+    <!-- Windows client only section, optional -->
+    <AppFeatures>
+        <!-- Valid length: 200 character limit, up to 20 -->
+        <AppFeature>
+            Veja tipos de arquivos 3D comuns: FBX, STL, OBJ, GLB, GLTF, PLY, 3MF, com preparação de alta qualidade.
+        </AppFeature>
+        <AppFeature>
+            Use os controles de panorâmica, zoom e órbita simples com mouse, toque, caneta ou teclado.
+        </AppFeature>
+    </AppFeatures>
+    <RecommendedHardware>
+        <!-- Valid length: 200 character limit, up to 11 -->
+        <Recommendation>
+            --
+        </Recommendation>
+    </RecommendedHardware>
+    <!-- Valid length: 200 character limit -->
+    <CopyrightAndTrademark>
+        © Microsoft Corporation
+    </CopyrightAndTrademark>
+    <!-- Valid length: 10000 character limit -->
+    <AdditionalLicenseTerms>
+        https://go.microsoft.com/fwlink/?LinkId=529064
+    </AdditionalLicenseTerms>
+    <!-- Valid length: 2048 character limit -->
+    <WebsiteURL>
+    </WebsiteURL>
+    <!-- Valid length: 2048 character limit -->
+    <SupportContactInfo>
+        v3Dops@microsoft.com
+    </SupportContactInfo>
+    <!-- Valid length: 2048 character limit -->
+    <PrivacyPolicyURL>
+        https://go.microsoft.com/fwlink/?LinkID=521839
+    </PrivacyPolicyURL>
+    <!-- END of Windows client section -->
+</ProductDescription>
