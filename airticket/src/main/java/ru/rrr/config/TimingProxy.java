@@ -14,7 +14,7 @@ public class TimingProxy implements MethodInterceptor {
 
         Object retVal = methodInvocation.proceed();
         stopWatch.stop();
-        log.info("Method " + methodInvocation.getMethod().getName() + "() took: " + stopWatch.getTotalTimeMillis() + " millis.");
+        log.info("Method " + /*methodInvocation.getClass().getName() + "." +*/ methodInvocation.getMethod().getName() + "() took: " + stopWatch.getTotalTimeMillis() + " millis.");
 
         return retVal;
     }

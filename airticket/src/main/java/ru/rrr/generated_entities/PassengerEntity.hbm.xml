@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.rrr.generated_entities.PassengerEntity" table="passenger" schema="public" catalog="airticket">
+        <id name="id">
+            <column name="id" sql-type="bigint"/>
+        </id>
+        <property name="givenName">
+            <column name="given_name" sql-type="varchar(255)"/>
+        </property>
+        <property name="middleName">
+            <column name="middle_name" sql-type="varchar(255)" not-null="true"/>
+        </property>
+        <property name="familyName">
+            <column name="family_name" sql-type="varchar(255)"/>
+        </property>
+        <property name="documentNumber">
+            <column name="document_number" sql-type="varchar(255)"/>
+        </property>
+        <property name="email">
+            <column name="email" sql-type="varchar(255)"/>
+        </property>
+        <property name="phone">
+            <column name="phone" sql-type="varchar(255)"/>
+        </property>
+        <set name="reservationsById" inverse="true">
+            <key>
+                <column name="passenger_id"/>
+            </key>
+            <one-to-many not-found="ignore" class="ru.rrr.generated_entities.ReservationEntity"/>
+        </set>
+    </class>
+</hibernate-mapping>

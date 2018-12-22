@@ -9,8 +9,14 @@ public class Place {
     private long id;
     @Column(nullable = false, length = 255)
     private String row;
+    @Column(nullable = false)
     private long seat;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "flight_class_id",referencedColumnName = "id")
     private FlightClass flightClass;
+
+    public Place() {
+    }
 
     public Place(long id, String row, long seat, FlightClass flightClass) {
         this.id = id;

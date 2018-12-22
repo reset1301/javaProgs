@@ -14,6 +14,9 @@ public class Country {
     @Column(length = 255)
     private String shortname;
 
+    public Country() {
+    }
+
     public Country(long id, String name, String flag, String shortname) {
         this.id = id;
         this.name = name;

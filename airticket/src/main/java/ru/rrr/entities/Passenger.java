@@ -20,6 +20,9 @@ public class Passenger {
     @Column(nullable = false, length = 255)
     private String phone;
 
+    public Passenger() {
+    }
+
     public Passenger(long id, String givenname, String middlename, String familyname, String documentNumber, String email, String phone) {
         this.id = id;
         this.givenname = givenname;

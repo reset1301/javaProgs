@@ -1,8 +1,6 @@
 package ru.rrr.entities;
 
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 @Entity
 public class Flight {
@@ -12,14 +10,12 @@ public class Flight {
     @Column(unique = true, nullable = false, length = 255)
     private String code;
     @Column(nullable = false)
-    private LocalDate flightDate;
+    private long flightDate;
     @Column(nullable = false)
-    private LocalTime flightTime;
+    private long flightCome;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "aircraft_id", referencedColumnName = "id")
     private Aircraft aircraft;
-    @Column
-    private long duration;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "city_from_id", referencedColumnName = "id")
     private City cityFrom;
@@ -31,13 +27,12 @@ public class Flight {
 
     }
 
-    public Flight(long id, String code, LocalDate flightDate, LocalTime flightTime, Aircraft aircraft, long duration, City cityFrom, City cityTo) {
+    public Flight(long id, String code, long flightDate, long flightCome, Aircraft aircraft, City cityFrom, City cityTo) {
         this.id = id;
         this.code = code;
         this.flightDate = flightDate;
-        this.flightTime = flightTime;
+        this.flightCome = flightCome;
         this.aircraft = aircraft;
-        this.duration = duration;
         this.cityFrom = cityFrom;
         this.cityTo = cityTo;
     }
@@ -58,20 +53,20 @@ public class Flight {
         this.code = code;
     }
 
-    public LocalDate getFlightDate() {
+    public long getFlightDate() {
         return flightDate;
     }
 
-    public void setFlightDate(LocalDate flightDate) {
+    public void setFlightDate(long flightDate) {
         this.flightDate = flightDate;
     }
 
-    public LocalTime getFlightTime() {
-        return flightTime;
+    public long getFlightCome() {
+        return flightCome;
     }
 
-    public void setFlightTime(LocalTime flightTime) {
-        this.flightTime = flightTime;
+    public void setFlightCome(long flightCome) {
+        this.flightCome = flightCome;
     }
 
     public Aircraft getAircraft() {
@@ -80,14 +75,6 @@ public class Flight {
 
     public void setAircraft(Aircraft aircraft) {
         this.aircraft = aircraft;
-    }
-
-    public long getDuration() {
-        return duration;
-    }
-
-    public void setDuration(long duration) {
-        this.duration = duration;
     }
 
     public City getCityFrom() {
@@ -111,9 +98,8 @@ public class Flight {
         return "Flight{" +
                 "code='" + code + '\'' +
                 ", flightDate=" + flightDate +
-                ", flightTime=" + flightTime +
+                ", flightCome=" + flightCome +
                 ", aircraft=" + aircraft +
-                ", duration=" + duration +
                 ", cityFrom=" + cityFrom +
                 ", cityTo=" + cityTo +
                 '}';

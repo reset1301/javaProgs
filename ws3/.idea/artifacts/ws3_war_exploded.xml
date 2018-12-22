@@ -7,6 +7,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="ws3" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="Hibernate 5.3.7-5.3.7" />
+          <element id="library" level="project" name="org.projectlombok:lombok:1.18.4" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+        </element>
       </element>
     </root>
   </artifact>

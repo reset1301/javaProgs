@@ -1,17 +1,32 @@
 package ru.rrr.entities;
 
-import java.util.Calendar;
+import javax.persistence.*;
 
+@Entity
 public class Reservation {
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "flight_id", referencedColumnName = "id", nullable = false)
     private Flight flight;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "passenger_id", referencedColumnName = "id", nullable = false)
     private Passenger passenger;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "place_id", referencedColumnName = "id", nullable = false)
     private Place place;
+    @Column(length = 255)
     private String addInfo;
-    private Calendar reserveDateTime;
+    @Column(nullable = false)
+    private long reserveDateTime;
+    @Column(nullable = false, unique = true, length = 255)
     private String code;
 
-    public Reservation(long id, Flight flight, Passenger passenger, Place place, String addInfo, Calendar reserveDateTime, String code) {
+    public Reservation() {
+    }
+
+    public Reservation(long id, Flight flight, Passenger passenger, Place place, String addInfo, long reserveDateTime, String code) {
         this.id = id;
         this.flight = flight;
         this.passenger = passenger;
@@ -61,11 +76,11 @@ public class Reservation {
         this.addInfo = addInfo;
     }
 
-    public Calendar getReserveDateTime() {
+    public long getReserveDateTime() {
         return reserveDateTime;
     }
 
-    public void setReserveDateTime(Calendar reserveDateTime) {
+    public void setReserveDateTime(long reserveDateTime) {
         this.reserveDateTime = reserveDateTime;
     }
 

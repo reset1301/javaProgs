@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:postgresql://localhost/airticket</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <mapping class="ru.rrr.entites.EntityFlight"/>
+    <mapping resource="ru/rrr/entites/EntityFlight.hbm.xml"/>
+    <mapping resource="ru/rrr/entites/EntityPassenger.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntityPassenger"/>
+    <mapping resource="ru/rrr/entites/EntityReservation.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntityReservation"/>
+    <mapping resource="ru/rrr/entites/EntitySprAircraft.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprAircraft"/>
+    <mapping resource="ru/rrr/entites/EntitySprAircraftPlace.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprAircraftPlace"/>
+    <mapping resource="ru/rrr/entites/EntitySprCity.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprCity"/>
+    <mapping resource="ru/rrr/entites/EntitySprCompany.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprCompany"/>
+    <mapping resource="ru/rrr/entites/EntitySprCountry.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprCountry"/>
+    <mapping resource="ru/rrr/entites/EntitySprFlightClass.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprFlightClass"/>
+    <mapping resource="ru/rrr/entites/EntitySprPlace.hbm.xml"/>
+    <mapping class="ru.rrr.entites.EntitySprPlace"/>
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

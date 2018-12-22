@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.rrr.generated_entities.FlightEntity" table="flight" schema="public" catalog="airticket">
+        <id name="id">
+            <column name="id" sql-type="bigint"/>
+        </id>
+        <property name="code">
+            <column name="code" sql-type="varchar(255)"/>
+        </property>
+        <property name="flightDate">
+            <column name="flight_date" sql-type="timestamp"/>
+        </property>
+        <property name="flightTime">
+            <column name="flight_time" sql-type="timestamp"/>
+        </property>
+        <property name="aircraftId">
+            <column name="aircraft_id" sql-type="bigint"/>
+        </property>
+        <property name="duration">
+            <column name="duration" sql-type="bigint"/>
+        </property>
+        <property name="cityFromId">
+            <column name="city_from_id" sql-type="bigint"/>
+        </property>
+        <property name="cityToId">
+            <column name="city_to_id" sql-type="bigint"/>
+        </property>
+        <many-to-one name="sprAircraftByAircraftId" class="ru.rrr.generated_entities.SprAircraftEntity">
+            <column name="aircraft_id"/>
+        </many-to-one>
+        <many-to-one name="sprCityByCityFromId" class="ru.rrr.generated_entities.SprCityEntity">
+            <column name="city_from_id"/>
+        </many-to-one>
+        <many-to-one name="sprCityByCityToId" class="ru.rrr.generated_entities.SprCityEntity">
+            <column name="city_to_id"/>
+        </many-to-one>
+        <set name="reservationsById" inverse="true">
+            <key>
+                <column name="flight_id"/>
+            </key>
+            <one-to-many not-found="ignore" class="ru.rrr.generated_entities.ReservationEntity"/>
+        </set>
+    </class>
+</hibernate-mapping>

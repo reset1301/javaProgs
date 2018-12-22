@@ -15,6 +15,9 @@ public class Aircraft {
     @JoinColumn(name = "company_id", referencedColumnName = "id")
     private Company company;
 
+    public Aircraft() {
+    }
+
     public Aircraft(long id, String name, List<Place> places, Company company) {
         this.id = id;
         this.name = name;

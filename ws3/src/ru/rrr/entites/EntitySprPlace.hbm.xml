@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="ru.rrr.entites.EntitySprPlace" table="spr_place" schema="public" catalog="airticket">
+        <id name="id">
+            <column name="id" sql-type="bigint"/>
+        </id>
+        <property name="row">
+            <column name="row" sql-type="varchar(255)"/>
+        </property>
+        <property name="seat">
+            <column name="seat" sql-type="bigint"/>
+        </property>
+        <many-to-one name="sprFlightClassByFlightClassId" class="ru.rrr.entites.EntitySprFlightClass">
+            <column name="flight_class_id"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

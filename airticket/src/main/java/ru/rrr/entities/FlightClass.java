@@ -12,6 +12,9 @@ public class FlightClass {
     @Column(length = 255)
     private String descr;
 
+    public FlightClass() {
+    }
+
     public FlightClass(long id, String name, String descr) {
         this.id = id;
         this.name = name;
