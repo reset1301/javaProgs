@@ -6,25 +6,19 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 import ru.rrr.dao.FlightDB;
-import ru.rrr.dao.PlaceDB;
-import ru.rrr.entities.*;
-import ru.rrr.service_interfaces.Search;
+import ru.rrr.entities.City;
+import ru.rrr.entities.Flight;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 @Slf4j
 @Component("searchFlights")
-public class SearchImpl implements Search, ApplicationContextAware {
+public class SearchImpl implements ApplicationContextAware {
     private ApplicationContext ctx;
 
-    @Override
-    public List<Flight> searchFlight(long date, City cityFrom, City cityTo, int placeCount) {
+    public List<Flight> searchFlight(long date, City cityFrom, City cityTo, int placeCount) throws SQLException, ClassNotFoundException {
         FlightDB flightDB = (FlightDB) ctx.getBean("flightDB");
         return flightDB.getFlightsByDatePlaceCountCityFromCityTo(date, cityFrom, cityTo, placeCount);
     }

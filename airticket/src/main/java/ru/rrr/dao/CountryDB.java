@@ -1,8 +1,6 @@
 package ru.rrr.dao;
 
-import org.springframework.beans.BeansException;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.rrr.entities.Country;
 
@@ -11,12 +9,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 @Component("countryDB")
-public class CountryDB implements ApplicationContextAware {
-    private ApplicationContext ctx;
+public class CountryDB {
+    @Autowired
+    private Statement statement;
+    @Autowired
+    private String selectCountryById;
 
     public Country getCountryById(long id) throws SQLException {
-        String selectCountryById = (String) ctx.getBean("selectCountryById");
-        Statement statement = ctx.getBean("statement", Statement.class);
         ResultSet resultSet = statement.executeQuery(String.format(selectCountryById, id));
         Country country = new Country();
         while (resultSet.next()) {
@@ -26,10 +25,5 @@ public class CountryDB implements ApplicationContextAware {
             country.setShortname(resultSet.getString("shortname"));
         }
         return country;
-    }
-
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        ctx = applicationContext;
     }
 }

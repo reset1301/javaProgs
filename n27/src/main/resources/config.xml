@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="rrr"/>
+    <bean id="myBean1" class="rrr.MyBean">
+        <property name="dep">
+            <ref bean="myDep1"/>
+        </property>
+    </bean>
+    <!--<bean id="myBean2" class="rrr.MyBean">-->
+        <!--<property name="dep">-->
+            <!--<ref bean="myDep2"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <bean id="myDepTarget" class="rrr.MyDependency"/>
+    <bean name="myDep1" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <ref bean="myDepTarget"/>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>advice</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="advice" class="rrr.MyAdvice"/>
+
+    <bean id="str" class="java.lang.String">
+        <constructor-arg index="0" value="injected"/>
+    </bean>
+</beans>

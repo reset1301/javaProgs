@@ -2,6 +2,7 @@ package ru.rrr.dao.dao_interfaces;
 
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
@@ -14,16 +15,17 @@ import java.sql.Statement;
 @Component("selectToDB")
 public  class AbstractSearchDb implements ApplicationContextAware {
     private ApplicationContext ctx;
-    private Statement statement;
+//    @Autowired
+//    private Statement statement;
 //    private AbstractSearchDb abstractSearchDb;
 
-    @PostConstruct
-    private void init() {
-        statement = (Statement) ctx.getBean("statement");
-    }
+//    @PostConstruct
+//    private void init() {
+//        statement = (Statement) ctx.getBean("statement");
+//    }
 
     public ResultSet getObjectById(String select, long id) throws SQLException {
-//        Statement statement = ctx.getBean("statement", Statement.class);
+        Statement statement = ctx.getBean("statement", Statement.class);
         return statement.executeQuery(String.format(select, id));
     }
 

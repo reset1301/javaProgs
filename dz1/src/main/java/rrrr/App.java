@@ -1,20 +1,65 @@
 package rrrr;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args ) throws IOException {
-        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        String dataStr = "2017-02-01T09:54:00";
+
+        Date reportTime = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(dataStr.replace("T", " "));
+        Date dateFrom = new Date(new Date().getTime() - 7 * 3600 * 24 * 1000);
+        System.out.println(reportTime.after(dateFrom));
+
+
+//        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+//
+//        MyProcessor myProcessor = new MyProcessor();
+//        MyRouteBuilder myRouteBuilder = new MyRouteBuilder();
+//        DefaultCamelContext camelContext = new DefaultCamelContext();
+//        camelContext.addRoutes(myRouteBuilder);
+//        camelContext.start();
+//        Thread.sleep(10000);
+//        camelContext.stop();
+/*
+
+        camelContext = new DefaultCamelContext();
+        camelContext.addRoutes(new JmsConsumerRoute());
+        camelContext.start();
+        Thread.sleep(5000);
+        camelContext.stop();
+*/
+
+//        FileCopierWithCamel fileCopierWithCamel = new FileCopierWithCamel();
+//        fileCopierWithCamel.getXmlJsonFormat().setEncoding("UTF-8");
+//        fileCopierWithCamel.getXmlJsonFormat().setForceTopLevelObject(true);
+//        fileCopierWithCamel.getXmlJsonFormat().setTrimSpaces(true);
+////        fileCopierWithCamel.getXmlJsonFormat().setRootName ("Admin");
+//        fileCopierWithCamel.getXmlJsonFormat().setSkipNamespaces(true);
+//        fileCopierWithCamel.getXmlJsonFormat().setRemoveNamespacePrefixes(true);
+////        fileCopierWithCamel.getXmlJsonFormat().setExpandableProperties  ("UTF-8");
+
+        /*CamelContext camelContext = new DefaultCamelContext();
+        camelContext.addRoutes(fileCopierWithCamel);
+        camelContext.setTracing(true);
+        camelContext.start();
+        Thread.sleep(10000);
+        camelContext.stop();*/
+
+//        String value = TestEnum.GET_EVENT.name();
+//        System.out.println(TestEnum.GET_EVENT.name());
+//        System.out.println(TestEnum.GET_EVENT.value);
+//        TestEnum[] values = TestEnum.values();
+//        for (TestEnum v:values             ) {
+//            System.out.println(v.name()+" "+v.stats);
+//        }
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 //        String s=reader.readLine(),s1=reader.readLine();
 //        System.out.println( "Hello World!" );
 
@@ -76,7 +121,7 @@ public class App
                 } else {
                     readWrite(raf, bw, bytesPerSplit);
                 }
-                if (remainingBytes > 0&&destIx==numSplits) {
+                if (remainingBytes > 0 && destIx == numSplits) {
 //                    BufferedOutputStream bw = new BufferedOutputStream(new FileOutputStream(s1 + (numSplits + 1)+".log"));
                     readWrite(raf, bw, remainingBytes);
 //                    bw.close();
@@ -85,21 +130,20 @@ public class App
             }
 
             raf.close();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println("Params not input!");
             e.printStackTrace();
         }
 
     }
+
     static void readWrite(RandomAccessFile raf, BufferedOutputStream bw, long numBytes) throws IOException {
         byte[] buf = new byte[(int) numBytes];
         int val = raf.read(buf);
-        if(val != -1) {
+        if (val != -1) {
             bw.write(buf);
         }
     }
-
 //    2
 
 }

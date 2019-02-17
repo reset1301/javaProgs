@@ -1,8 +1,8 @@
 package ru.rrr.dao;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 import ru.rrr.entities.Passenger;
 
@@ -11,12 +11,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 @Component("passengerDB")
-public class PassengerDB implements ApplicationContextAware {
-    private ApplicationContext ctx;
+public class PassengerDB {
+    @Autowired
+    private Statement statement;
+    @Autowired
+    private String selectPassengerById;
 
     public Passenger getPassengerById(long id) throws SQLException {
-        String selectPassengerById = (String) ctx.getBean("selectPassengerById");
-        Statement statement = ctx.getBean("statement", Statement.class);
         ResultSet resultSet = null;
         resultSet = statement.executeQuery(String.format(selectPassengerById, id));
         Passenger passenger = new Passenger();
@@ -30,10 +31,5 @@ public class PassengerDB implements ApplicationContextAware {
             passenger.setPhone(resultSet.getString("phone"));
         }
         return passenger;
-    }
-
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        ctx = applicationContext;
     }
 }
