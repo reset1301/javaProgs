@@ -17,19 +17,20 @@ import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static ru.rrr.enums.Level.Easy;
+import static ru.rrr.enums.Level.Medium;
 
 /**
  * Hello world!
  */
 public class App {
 
-    private static final int MAX_COUNT = 100;
+    private static final int MAX_COUNT = 20;
     private static final int NUMBER_OF_EXAMPLES = 48;
-    private static final Level difficultLevel = Easy;
+    private static final Level difficultLevel = Medium;
 
     public static void main(String[] args) throws IOException {
-        Handler handler = new ArichmeticsHandler();
+        Handler arichmeticsHandler = new ArichmeticsHandler();
+        Handler multiplicationHandler = new MultiplicationHandler();
         StringBuilder sb = new StringBuilder();
         File file = new File("Lesson.csv");
         @Cleanup OutputStreamWriter bw = new OutputStreamWriter(new FileOutputStream(file), "Windows-1251");
@@ -38,6 +39,8 @@ public class App {
         sb.append(System.lineSeparator());
         sb.append("Домашняя работа");
         sb.append(System.lineSeparator());
+
+        StringBuilder sb2 = new StringBuilder();
 
         //create .xls and create a worksheet.
         FileOutputStream fos = new FileOutputStream("Lesson.xls");
@@ -56,9 +59,15 @@ public class App {
         cellA2.setCellValue("Домашняя работа");
 
         for (int i = 0; i < NUMBER_OF_EXAMPLES / 2; i++) {
-            String example1 = handler.getExample(MAX_COUNT);
-            String example2 = handler.getExample(MAX_COUNT);
+            String example1 = arichmeticsHandler.getExample(MAX_COUNT);
+            String example2 = arichmeticsHandler.getExample(MAX_COUNT);
+
+            int count = multiplicationHandler.getCount(difficultLevel);
+            String example3 = multiplicationHandler.getExample(count);
+            String example4 = multiplicationHandler.getExample(count);
+
             appendExample(sb, example1, example2);
+            appendExample(sb2, example3, example4);
 
             HSSFRow row = worksheet.createRow((short) 3 + i);
             HSSFCell cell = row.createCell(0);
@@ -66,23 +75,14 @@ public class App {
             cell = row.createCell(3);
             cell.setCellValue(example2);
 
-        }
-        bw.write(sb.toString());
-
-        handler = new MultiplicationHandler();
-        for (int i = 0; i < NUMBER_OF_EXAMPLES / 2; i++) {
-            int count = handler.getCount(difficultLevel);
-            String example1 = handler.getExample(count);
-            String example2 = handler.getExample(count);
-            appendExample(sb, example1, example2);
-
-            HSSFRow row = worksheet.createRow((short) 4+ NUMBER_OF_EXAMPLES / 2 + i);
-            HSSFCell cell = row.createCell(0);
-            cell.setCellValue(example1);
+            row = worksheet.createRow((short) 4 + NUMBER_OF_EXAMPLES / 2 + i);
+            cell = row.createCell(0);
+            cell.setCellValue(example3);
             cell = row.createCell(3);
-            cell.setCellValue(example2);
-
+            cell.setCellValue(example4);
         }
+
+        sb.append(sb2);
         bw.write(sb.toString());
         System.out.println(sb.toString());
 
