@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="booleanMeasurementParameter" type="booleanMeasurementParameter"/>
+
+    <xs:element name="coordinateData" type="coordinateData"/>
+
+    <xs:element name="doubleMeasurementParameter" type="doubleMeasurementParameter"/>
+
+    <xs:element name="infoRecord" type="infoRecord"/>
+
+    <xs:element name="intMeasurementParameter" type="intMeasurementParameter"/>
+
+    <xs:element name="location" type="location"/>
+
+    <xs:element name="measurement" type="measurement"/>
+
+    <xs:element name="stringMeasurementParameter" type="stringMeasurementParameter"/>
+
+    <xs:complexType name="measurement">
+        <xs:sequence>
+            <xs:element name="measurementUUID" type="xs:string"/>
+            <xs:element name="dateTime" type="xs:dateTime"/>
+            <xs:element name="deviceUUID" type="xs:string"/>
+            <xs:element name="parameterList" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                            <xs:element ref="doubleMeasurementParameter"/>
+                            <xs:element ref="intMeasurementParameter"/>
+                            <xs:element ref="stringMeasurementParameter"/>
+                            <xs:element ref="booleanMeasurementParameter"/>
+                        </xs:choice>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="additionalData" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="infoRecord" type="infoRecord" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="oldState" type="xs:string" minOccurs="0"/>
+            <xs:element name="newState" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="phone" type="xs:string" minOccurs="0"/>
+            <xs:element name="dateTimeByExternalSystem" type="xs:dateTime" minOccurs="0"/>
+            <xs:element ref="location" minOccurs="0"/>
+            <xs:element name="messageType" type="messageType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="doubleMeasurementParameter">
+        <xs:complexContent>
+            <xs:extension base="measurementParameter">
+                <xs:sequence/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="measurementParameter" abstract="true">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="dateTimeByExternalSystem" type="xs:dateTime"/>
+            <xs:element name="value" type="xs:anyType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="intMeasurementParameter">
+        <xs:complexContent>
+            <xs:extension base="measurementParameter">
+                <xs:sequence/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="stringMeasurementParameter">
+        <xs:complexContent>
+            <xs:extension base="measurementParameter">
+                <xs:sequence/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="booleanMeasurementParameter">
+        <xs:complexContent>
+            <xs:extension base="measurementParameter">
+                <xs:sequence/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="infoRecord">
+        <xs:sequence>
+            <xs:element name="recordType" type="recordType"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="value" type="xs:string"/>
+            <xs:element name="code" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="location">
+        <xs:sequence>
+            <xs:element ref="coordinateData"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="coordinateData">
+        <xs:sequence>
+            <xs:element name="latitude" type="xs:decimal"/>
+            <xs:element name="longitude" type="xs:decimal"/>
+            <xs:element name="projection" type="xs:string"/>
+            <xs:element name="precision" type="xs:int" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="recordType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="STRING"/>
+            <xs:enumeration value="CONTENT"/>
+            <xs:enumeration value="CONTENT_URL"/>
+            <xs:enumeration value="VIDEO_INFO"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="messageType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="PARAMETER_EVENT"/>
+            <xs:enumeration value="DEVICE_STATE_EVENT"/>
+            <xs:enumeration value="ADAPTER_STATE_EVENT"/>
+            <xs:enumeration value="STATE_EVENT"/>
+            <xs:enumeration value="STATE_INCORRECT_EVENT"/>
+            <xs:enumeration value="FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="FLOOD_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="FOREST_FIRE_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="CHEMISTRY_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="STATE_CHANGE_EVENT"/>
+            <xs:enumeration value="MEASUREMENT_EVENT"/>
+            <xs:enumeration value="CARD_FROM_EXTERNAL_SYSTEM"/>
+            <xs:enumeration value="VEHICLE_LOCATION"/>
+            <xs:enumeration value="LIQUID_FIRE_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="OIL_SPILLAGE_FORECAST_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="BLAST_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="EXTERNAL_SYSTEM_REACTION_STATUS"/>
+            <xs:enumeration value="CARD_DELIVERED"/>
+            <xs:enumeration value="TEST_CHEMISTRY_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="TEST_FLOOD_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="TEST_FOREST_FIRE_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="TEST_LIQUID_FIRE_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="TEST_OIL_SPILLAGE_FORECAST_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="TEST_BLAST_FORECAST_RESULT_EVENT"/>
+            <xs:enumeration value="ADAPTER_CONVERSION"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+
